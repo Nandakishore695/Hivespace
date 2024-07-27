@@ -54,7 +54,7 @@ nav ul li a:hover{color: var(--second-bg-color); text-decoration: underline; bor
 /* contact page area */
 .container-form{display: flex; align-items: center; justify-content: space-evenly; background: var(--second-bg-color); height: 700px;}
 .container-form h1{color: var(--text-bg-color);}
-input[type=text], input[type=email], textarea{border-color: #3d3d3d; background-color: rgba(61, 61, 61, .5); color: var(--text-bg-color); font-size: 20px; border-bottom: 1px solid var(--text-bg-color); margin-right: 35px; outline: none; padding: 20px 20px; resize: none;}
+input[type=text], input[type=email], textarea{border-color: #3d3d3d; background: var(--second-bg-color); color: var(--text-bg-color); font-size: 20px; border: none; border-bottom: 1px solid var(--text-bg-color); margin-right: 35px; outline: none; padding: 20px 20px; resize: none;}
 textarea{height: 138px; width: 87%;}
 ::placeholder {color:var(--text-bg-color); opacity: 0.6;}
 .container-form div{color: var(--text-bg-color);}
