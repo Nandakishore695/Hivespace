@@ -49,7 +49,7 @@ nav ul li a:hover{color: var(--second-bg-color); text-decoration: underline; bor
 .container-hivevideo iframe{ border-top-left-radius: 20px; border-top-right-radius: 20px;}
 /* gallery page area */
 .container-img{display: grid; justify-content: center; padding-top: 48px;}
-.container-img img{width: auto; height: 300px; margin: 5px; border-radius: 20px;}
+.container-img img{width: auto; height: 354px; margin: 5px; border-radius: 20px;}
 
 /* contact page area */
 /* .container-form-section{background: var(--second-bg-color); color: var(--text-bg-color); text-align: center; font-size: 42px; padding: 30px 0px;} */
@@ -65,8 +65,8 @@ footer{height: 470px; display: flex;}
 .subscrtion{width: 40%; background: var(--second-bg-color); padding: 101px 75px 14px 124px;}
 .subscrtion ul{list-style: none;}
 .subscrtion li{margin: 20px 0px;}
-.subscrtion li input{font-size: 15px; padding: 14px; outline: none; border-radius: 5px; border-color: var(--text-bg-color);}
-.Subscribe-btn{border: 1px solid var(--text-bg-color); font-size: 15px; padding: 16px; border-radius: 5px; text-decoration: none; color: var(--text-bg-color);}
+.subscrtion li input{font-size: 15px; padding: 14px; border-radius: 5px; border-color: var(--text-bg-color);}
+.Subscribe-btn{border: 1px solid var(--text-bg-color); font-size: 15px; padding: 14px; border-radius: 5px; text-decoration: none; color: var(--text-bg-color);}
 .subscrtion li p{color: var(--text-bg-color); }
 .about-footer{width: 30%; background-color: #1c1c1c; padding: 101px 47px 41px 93px; color: var(--text-bg-color);}
 .about-footer ul{list-style: none;}
