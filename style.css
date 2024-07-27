@@ -114,6 +114,7 @@ footer{height: 470px; display: flex;}
     .container-form{display: block; height: 868px; padding-left: 32px;} 
     textarea{width: 245px; }
   
+    /* footer page area */
     footer{ display: block;}
     .subscrtion{width: auto; padding: 20px 30px;}
     .about-footer{width:  auto; padding: 20px 30px;}
