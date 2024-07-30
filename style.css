@@ -15,8 +15,10 @@ nav ul li { display: inline-block;}
 nav ul li a{text-decoration: none; color: var(--second-bg-color); margin: 24px; font-size: 18px;}
 nav ul li a:hover{color: var(--second-bg-color); text-decoration: underline; border: 100%; text-underline-offset: 6px;}
 
+/* home page area */
+.slider{height: 700px; background-repeat: no-repeat; animation: slidesImages 50s linear infinite; width: auto;}
+.prime-location{background: url("./images/Prime-Location.png") no-repeat center/ cover scroll; height: 900px;}
 
-.slider{background-image: url(./images/web-img/main-img.png); height: 683px; background-repeat: no-repeat; background-size: cover;}
 
 /* services page area */
 .container-services{text-align: center;}
@@ -49,14 +51,16 @@ nav ul li a:hover{color: var(--second-bg-color); text-decoration: underline; bor
 .container-hivevideo iframe{ border-top-left-radius: 20px; border-top-right-radius: 20px;}
 /* gallery page area */
 .container-img{display: grid; justify-content: center; padding-top: 48px;}
-.container-img img{width: auto; height: 354px; margin: 5px; border-radius: 20px;}
+.container-img img{width: auto; height: 322px; margin: 5px; border-radius: 20px;}
 
 /* contact page area */
-.container-form{display: flex; align-items: center; justify-content: space-evenly; background: var(--second-bg-color); height: 700px;}
+.container-form-section{background: url('./images/contact-us-bg.jpg') no-repeat center / cover fixed;  padding: 30px 0px;}
+.container-form-section h1{text-align: center; color: var(--text-bg-color); font-size: 48px;}
+.container-form{display: flex; align-items: center; justify-content: space-evenly; height: 700px;}
 .container-form h1{color: var(--text-bg-color);}
-input[type=text], input[type=email], textarea{border-color: #3d3d3d; background: var(--second-bg-color); color: var(--text-bg-color); font-size: 20px; border: none; border-bottom: 1px solid var(--text-bg-color); margin-right: 35px; outline: none; padding: 20px 20px; resize: none;}
+input[type=text], input[type=email], textarea{border-color: #3d3d3d; background: transparent; color: var(--text-bg-color); font-size: 20px; border: none; border-bottom: 1px solid var(--text-bg-color); margin-right: 35px; outline: none; padding: 20px 20px; resize: none;}
 textarea{height: 138px; width: 87%;}
-::placeholder {color:var(--text-bg-color); opacity: 0.6;}
+::placeholder{color:var(--text-bg-color); opacity: 0.6;}
 .container-form div{color: var(--text-bg-color);}
 
 .container-form div h1{font-size: 42px; margin-bottom: 30px;}
@@ -67,7 +71,8 @@ footer{height: 470px; display: flex;}
 .subscrtion{width: 40%; background: var(--second-bg-color); padding: 101px 75px 14px 124px;}
 .subscrtion ul{list-style: none;}
 .subscrtion li{margin: 20px 0px;}
-.subscrtion li input{font-size: 15px; padding: 14px; border-radius: 5px; border-color: var(--text-bg-color);}
+.subscrtion li input{font-size: 15px; padding: 14px; border-radius: 5px; border-color: var(--text-bg-color); outline: none;}
+.subscrtion li ::placeholder{color:var(--second-bg-color); opacity: 0.6;}
 .Subscribe-btn{border: 1px solid var(--text-bg-color); font-size: 15px; padding: 14px; border-radius: 5px; text-decoration: none; color: var(--text-bg-color);}
 .subscrtion li p{color: var(--text-bg-color); }
 .about-footer{width: 30%; background-color: #1c1c1c; padding: 101px 47px 41px 93px; color: var(--text-bg-color);}
@@ -86,6 +91,13 @@ footer{height: 470px; display: flex;}
 /* whatsapp-icon area */
 .whatsapp-icon{position: fixed; bottom: 10px; right: 10px;}
 
+@keyframes slidesImages{
+    0%{background-image: url("./images/web-img/main-img.png");}
+    25%{background-image: url("./images/web-img/Wall-Art-Hive-Space.png");}
+    50%{background-image: url("./images/web-img/hivespace-wait-room.png");}
+    75%{background-image: url("./images/web-img/Untitled-design-3.webp");}
+    100%{background-image: url("./images/web-img/coworking-room.png");}
+}
 
 @media screen and (max-width:400px){
     body{padding: 0%; margin: 0%;}
