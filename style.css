@@ -15,7 +15,14 @@ nav ul li a:hover{color: var(--second-bg-color); text-decoration: underline; bor
 /* home page area */
 .slider{height: 700px; background-repeat: no-repeat; animation: slidesImages 50s linear infinite; width: auto;}
 .prime-location{background: url("./images/Prime-Location.png") no-repeat center/ cover scroll; height: 900px;}
+.cotainer-our-clients{text-align: center; height: 700px; margin-top: 50px;}
+.cotainer-our-clients h1{font-size: 48px;}
+.cotainer-our-clients img{width: 170px; margin: 30px 50px; transition: all 1s linear;}
+.cotainer-our-clients img:hover{transform: scale(1.1);}
 
+.container-testimonals{height: 400px; text-align: center;}
+.container-testimonals h1{background: var(--main-bg-color); color: var(--second-bg-color); font-size: 48px; padding: 30px 0px;}
+.container-testimonals>div{ display: flex; background: pink;}
 /* about page area  */
 .container-about-us{background: url("./images/Blue-and-Yellow-aboutus.jpg") no-repeat center / cover; height: 700px;}
 
@@ -105,6 +112,10 @@ footer{height: 470px; display: flex;}
     header{background: var(--text-bg-color);}
     .container-img{background: var(--second-bg-color);}
     .container-img img{width: 90%; margin-left: 18px;}
+    /* home page area  */
+    .cotainer-our-clients{height: auto;}
+    .cotainer-our-clients h1{padding: 20px 0px;}
+    .cotainer-our-clients img{margin: 10px 20px;}
 
     /* blog page area */
     .container-blog{height: auto;}
