@@ -13,7 +13,7 @@ nav ul li a{text-decoration: none; color: var(--second-bg-color); margin: 24px; 
 nav ul li a:hover{color: var(--second-bg-color); text-decoration: underline; border: 100%; text-underline-offset: 6px;}
 
 /* home page area */
-.slider{height: 700px; background-repeat: no-repeat; animation: slidesImages 50s linear infinite; width: auto;}
+.slider{height: 700px; background-repeat: no-repeat; width: auto; background: url("./images/web-img/main-img.png") no-repeat center / cover ;}
 .prime-location{background: url("./images/Prime-Location.png") no-repeat center/ cover scroll; height: 900px;}
 .cotainer-our-clients{text-align: center; height: 700px; margin-top: 50px;}
 .cotainer-our-clients h1{font-size: 48px;}
@@ -98,7 +98,7 @@ footer{height: 470px; display: flex;}
 .whatsapp-icon{position: fixed; bottom: 10px; right: 10px;}
 
 @keyframes slidesImages{
-    0%{background-image: url("./images/web-img/main-img.png");}
+    0%{}
     25%{background-image: url("./images/web-img/Wall-Art-Hive-Space.png");}
     50%{background-image: url("./images/web-img/hivespace-wait-room.png");}
     75%{background-image: url("./images/web-img/Untitled-design-3.webp");}
