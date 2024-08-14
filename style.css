@@ -1,9 +1,9 @@
 *{padding: 0px;margin: 0px;}
-:root{--main-bg-color: #f8cf19; --second-bg-color: #000000; --text-bg-color: #ffffff; --bg-blue-book: #2a3cb7; --bg-red: #ff1500;}
+:root{--main-bg-color: #f8cf19; --second-bg-color: #000000; --text-bg-color: #ffffff; --bg-blue-book: #2a3cb7; --bg-red: #ff1500; --mail-input:#eef1f6;}
 section{width: 100%;}
 button{padding: 20px 40px; background-color: var(--main-bg-color); border: none; cursor: pointer; font-size: larger;}
 button:hover{border: 1px solid var(--text-bg-color);  color: var(--text-bg-color); background: var(--second-bg-color); padding: 19px 39px;}
-header{width: 100%; background: var(--main-bg-color); }
+header{width: 100%; background: var(--main-bg-color); padding: 20px 0px; }
 nav{display: flex;justify-content: space-evenly; align-items: center;  }
 nav img{width: 150px; }
 nav ul{list-style: none; display: inline-block; }
@@ -13,19 +13,32 @@ nav ul li a:hover{color: var(--second-bg-color); text-decoration: underline; bor
 
 /* home page area */
 .slider{height: 700px; background-repeat: no-repeat; width: auto; background: url("./images/web-img/main-img.png") no-repeat center / cover ;}
+
+/* location section  */
 .prime-location{background: url("./images/Prime-Location.png") no-repeat center/ cover scroll; height: 900px;}
 .prime-description{position: relative; top: 250px; left: 200px; display: flex; align-items: center; }
 .prime-description img{margin-right: 10px; width: 100px;}
 .prime-description h1{color: var(--bg-red); font-weight: 800; font-size:34px;}
 
+/* reviews section  */
+.container-testimonals{text-align: center;}
+.container-testimonals h1{background: var(--main-bg-color); color: var(--second-bg-color); font-size: 48px; padding: 30px 0px;}
+.container-testimonals div{ display: flex; margin: 50px 30px; align-items: center; height: 500px;}
+
+/* mail section  */
+.container-mail{display: flex; justify-content: space-evenly; height: 500px; align-items: center;}
+.container-mail h1{font-size: 32px;}
+.container-mail div a{padding: 20px 40px; background-color: var(--main-bg-color); border: none; cursor: pointer; font-size: larger; text-decoration: none; color: var(--second-bg-color); transition: all 1s linear;}
+#mail-with-subscribe{border-color: var(--second-bg-color); background: var(--mail-input); width: 300px; margin-right: -5px; color: var(--second-bg-color);}
+#mail-with-subscribe::placeholder{color: var(--second-bg-color);}
+
+/* clients logo  */
 .cotainer-our-clients{text-align: center; height: 700px; margin-top: 50px;}
 .cotainer-our-clients h1{font-size: 48px;}
 .cotainer-our-clients img{width: 170px; margin: 30px 50px; transition: all 1s linear;}
 .cotainer-our-clients img:hover{transform: scale(1.1);}
 
-.container-testimonals{height: 400px; text-align: center;}
-.container-testimonals h1{background: var(--main-bg-color); color: var(--second-bg-color); font-size: 48px; padding: 30px 0px;}
-.container-testimonals>div{ display: flex; background: pink;}
+
 /* about page area  */
 .container-about-us{background: url("./images/Blue-and-Yellow-aboutus.jpg") no-repeat center / cover; height: 700px; padding-top: 20px;}
 
